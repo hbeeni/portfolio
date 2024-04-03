@@ -24,19 +24,22 @@
 </br>
 
 ## :pushpin: Projects
-### 1. i:HealMe
->소아과 예약 서비스 (팀 프로젝트  
->개발 기간: 2023.4.24 ~ 2023.5.14  
+
+### [CATEGO](https://catego.kro.kr)
+>YouTube 구독 채널 폴더링 서비스 (개인 프로젝트)  
+>개발 기간: 2024.1.16 ~ 2024.3.23  
 >  
 >기술 스택:  
->Java 11 / Spring Boot 2.7.11 / Gradle 7.6.1  
->Spring Data JPA / Oracle DB / Spring Web / Thymeleaf  
+>Java 17 / Spring Boot 3.2.1 / Gradle 8.5  
+>Spring Data JPA / MySQL / H2  
+>Spring Security / OAuth2 Client / Spring Web / Spring Data Redis  
+>Thymeleaf / YouTube Data API V3  
 >  
->[GitHub](https://github.com/hbeeni/iHealMe) 참고
+>[프로젝트 상세 설명](https://github.com/hbeeni/catego) 참고
 
 ---
 
-### 2. [온라인 쇼핑몰 API](http://onlinestoreapi.kro.kr)
+### [온라인 쇼핑몰 API](http://onlinestoreapi.kro.kr)
 >쇼핑몰 웹 사이트를 위한 REST API (개인 프로젝트)  
 >개발 기간: 2023.11.1 ~ 2024.1.14  
 >  
@@ -49,14 +52,12 @@
 
 ---
 
-### 3. [CATEGO](https://catego.kro.kr)
->YouTube 구독 채널 폴더링 서비스 (개인 프로젝트)  
->개발 기간: 2024.1.16 ~ 2024.3.23  
+### i:HealMe
+>소아과 예약 서비스 (팀 프로젝트)  
+>개발 기간: 2023.4.24 ~ 2023.5.14  
 >  
 >기술 스택:  
->Java 17 / Spring Boot 3.2.1 / Gradle 8.5  
->Spring Data JPA / MySQL / H2  
->Spring Security / OAuth2 Client / Spring Web / Spring Data Redis  
->Thymeleaf / YouTube Data API V3  
+>Java 11 / Spring Boot 2.7.11 / Gradle 7.6.1  
+>Spring Data JPA / Oracle DB / Spring Web / Thymeleaf  
 >  
->[프로젝트 상세 설명](https://github.com/hbeeni/catego) 참고
+>[GitHub](https://github.com/hbeeni/iHealMe) 참고
