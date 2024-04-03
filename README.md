@@ -25,9 +25,10 @@
 
 ## :pushpin: Projects
 
-### 1. [CATEGO](https://catego.kro.kr)
+### 1. CATEGO
 >YouTube 구독 채널 폴더링 서비스 (개인 프로젝트)  
 >개발 기간: 2024.1.16 ~ 2024.3.23  
+>서비스 링크: https://catego.kro.kr  
 >  
 >기술 스택:  
 >Java 17 / Spring Boot 3.2.1 / Gradle 8.5  
@@ -39,9 +40,10 @@
 
 ---
 
-### 2. [온라인 쇼핑몰 API](http://onlinestoreapi.kro.kr)
+### 2. 온라인 쇼핑몰 API
 >쇼핑몰 웹 사이트를 위한 REST API (개인 프로젝트)  
 >개발 기간: 2023.11.1 ~ 2024.1.14  
+>서비스 링크: http://onlinestoreapi.kro.kr  
 >  
 >기술 스택:  
 >Java 17 / Spring Boot 2.7.17 / Gradle 8.3  
