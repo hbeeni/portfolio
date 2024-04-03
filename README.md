@@ -25,7 +25,7 @@
 
 ## :pushpin: Projects
 
-### [CATEGO](https://catego.kro.kr)
+### 1. [CATEGO](https://catego.kro.kr)
 >YouTube 구독 채널 폴더링 서비스 (개인 프로젝트)  
 >개발 기간: 2024.1.16 ~ 2024.3.23  
 >  
@@ -39,7 +39,7 @@
 
 ---
 
-### [온라인 쇼핑몰 API](http://onlinestoreapi.kro.kr)
+### 2. [온라인 쇼핑몰 API](http://onlinestoreapi.kro.kr)
 >쇼핑몰 웹 사이트를 위한 REST API (개인 프로젝트)  
 >개발 기간: 2023.11.1 ~ 2024.1.14  
 >  
@@ -52,7 +52,7 @@
 
 ---
 
-### i:HealMe
+### 3. i:HealMe
 >소아과 예약 서비스 (팀 프로젝트)  
 >개발 기간: 2023.4.24 ~ 2023.5.14  
 >  
