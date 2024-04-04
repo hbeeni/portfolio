@@ -95,7 +95,6 @@
         private List<Comment> comments = new ArrayList<>();
     }
     ```
-  - 해결: `distinct`를 추가함
-  
+    
   </div>
   </details>
