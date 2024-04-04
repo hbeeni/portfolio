@@ -55,11 +55,47 @@
 ---
 
 ### 3. i:HealMe
->소아과 예약 서비스 (팀 프로젝트)  
+>소아과 진료 접수 및 후기 작성 서비스 (팀 프로젝트)  
 >개발 기간: 2023.4.24 ~ 2023.5.14  
 >  
 >기술 스택:  
 >Java 11 / Spring Boot 2.7.11 / Gradle 7.6.1  
->Spring Data JPA / Oracle DB / Spring Web / Thymeleaf  
->  
->[GitHub](https://github.com/hbeeni/iHealMe) 참고
+>Spring Data JPA / Oracle DB / Spring Web / Thymeleaf
+
+- 담당: 커뮤니티 후기 게시글 관련 기능 구현
+- 핵심 기능
+  - JPA를 활용한 게시글 등록, 수정, 삭제, 조회
+  - 게시글 조회 시 병원 이름, 제목, 작성자로 검색 가능
+  - 게시글 조회수 보기, 신고하기
+- 트러블 슈팅
+
+  <details>
+  <summary><code>PersistentObjectException: detached entity passed to persist</code></summary>
+  <div markdown="1">
+  
+  - 문제: Post 저장 시 이미 저장된 User를 또 저장하기 때문에 문제가 발생함
+  - 해결: `cascade = CascadeType.ALL` 설정을 삭제함
+  
+  </div>
+  </details>
+
+  <details>
+  <summary><code>firstResult/maxResults specified with collection fetch; applying in memory!</code></summary>
+  <div markdown="1">
+  
+  - 문제: `Post` 조회 시 `Comment` fetch join과 pagination을 같이 사용했음 -> 이 때 모든 데이터를 전부 가져와 메모리에서 걸러내서 문제가 발생함
+  - 해결: Batch size를 설정함
+    ```java
+    public class Post {
+
+        //...
+    
+        @OneToMany(mappedBy = "post", orphanRemoval = true, fetch = FetchType.LAZY)
+        @BatchSize(size = 10) //추가
+        private List<Comment> comments = new ArrayList<>();
+    }
+    ```
+  - 해결: `distinct`를 추가함
+  
+  </div>
+  </details>
