@@ -1,7 +1,7 @@
 # 박혜빈 포트폴리오
 > 매일 조금씩 더 성장하고자 하는 개발자 :seedling:
 
-</br>
+<br>
 
 ## :pushpin: Intro
 안녕하세요. 백엔드 개발자로서 더 성장하고 싶은 **박혜빈**입니다.
@@ -15,13 +15,13 @@
 
 이제까지의 경험을 바탕으로 더 배우고 성장하여, 백엔드 개발자로서의 역량을 지속적으로 향상시키겠습니다!
 
-</br>
+<br>
 
 ## :pushpin: Contact
 - 이메일: hyebeen.dev@gmail.com
 - 깃헙: https://github.com/hbeeni
 
-</br>
+<br>
 
 ## :pushpin: Projects
 
