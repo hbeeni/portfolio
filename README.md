@@ -35,6 +35,7 @@
 >Spring Data JPA / MySQL / H2  
 >Spring Security / OAuth2 Client / Spring Web / Spring Data Redis  
 >Thymeleaf / YouTube Data API V3  
+>Google Cloud Platform(GCP)  
 >  
 >[프로젝트 상세 설명](https://github.com/hbeeni/catego) 참고
 
@@ -49,6 +50,7 @@
 >Java 17 / Spring Boot 2.7.17 / Gradle 8.3  
 >Spring Data JPA / QueryDSL / MySQL / H2  
 >Spring Security / Spring Web / Spring REST Docs / restdocs-api-apec  
+>Google Cloud Platform(GCP)  
 >  
 >[프로젝트 상세 설명](https://github.com/hbeeni/online-store) 참고
 
