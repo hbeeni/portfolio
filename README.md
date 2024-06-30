@@ -45,7 +45,9 @@
 
 ### 2. Foodie  
 >음식을 좋아하는 사람들이 음식에 관해 소통하는 SNS (개인 프로젝트)  
->개발 기간: 2024.05.03 ~ 진행 중  
+>개발 기간: 2024.05.03 ~ 진행 중
+>  
+>[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/33257914-bc5771f6-782f-4ba7-9d86-e241a8c93390?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D33257914-bc5771f6-782f-4ba7-9d86-e241a8c93390%26entityType%3Dcollection%26workspaceId%3Db20809e7-06eb-481b-9afa-325739d7827c)
 >  
 >기술 스택:  
 >Java 17 / Spring Boot 3.2.5 / Gradle 8.7  
